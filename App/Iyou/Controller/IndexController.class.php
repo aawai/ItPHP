@@ -9,9 +9,9 @@ class IndexController extends Controller {
 		$this->assign('name','IYOYU');
 		$this->assign('age','18');
 		
-		$model = new Model();
-		$sql = "SELECT username FROM top_user WHERE id = 31";
-		$result = $model->query($sql);
+		//$model = new Model();
+		//$sql = "SELECT username FROM top_user WHERE id = 31";
+		//$result = $model->query($sql);
 		//p($result->fetchAll());
 
 		//p($_SERVER);
