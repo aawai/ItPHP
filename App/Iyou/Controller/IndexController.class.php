@@ -9,6 +9,7 @@ class IndexController extends Controller {
 		$this->assign('name','IYOYU');
 		$this->assign('age','18');
 		//报错 不知道是什么原因 希望去查找是否是因为数据库原因
+		//这是测试git 拉去功能
 		//$model = new Model();
 		//$sql = "SELECT username FROM top_user WHERE id = 31";
 		//$result = $model->query($sql);
